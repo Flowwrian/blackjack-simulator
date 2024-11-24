@@ -6,5 +6,4 @@ RUN npm i
 RUN npm run build
 EXPOSE 8080
 
-# build frontend bundle
 CMD npx http-server dist/ -o -a --cors -p 8080
